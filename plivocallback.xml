@@ -1,0 +1,4 @@
+<Response>
+    <Speak>Thank you for sharing your information. We have added you to our queue and will call you back as soon as an operator is available.</Speak>
+    <Wait length="200" />
+</Response>
