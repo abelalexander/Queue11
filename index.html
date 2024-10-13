@@ -2,38 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Q11 Call Prioritization Dashboard</title>
-    <link rel="stylesheet" href="style.css">
+    <title>911 Call Prioritization Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1><strong>Q11 Call Dashboard</strong></h1>
-        <div id="call-count"><strong>Total Calls: </strong><span id="total-calls">0</span></div>
+        <h1>911 Call Dashboard</h1>
+        <div id="call-count">Total Calls: <span id="total-calls">0</span></div>
     </header>
-    
-    <!-- Container for full-on boxes -->
-    <div id="incident-container"></div>
-    <div id="q-logo">
-        <img src="https://i.ibb.co/4F0Yn8s/Q-1-removebg-preview-1.png" alt="Q-1-removebg-preview-1" border="0"></a>
-    </div> 
-
     <table>
         <thead>
             <tr>
                 <th>Time</th>
                 <th>Address</th>
                 <th>Description</th>
-                <th>Priority</th>
-                <th>Caller Name</th>
-                <th>Caller Phone</th>
-                <th>Action</th>
+                <th>Priority Ranking</th>
             </tr>
         </thead>
         <tbody id="call-data">
             <!-- Call entries will be inserted dynamically here -->
         </tbody>
     </table>
-
     <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
 </body>
 </html>
